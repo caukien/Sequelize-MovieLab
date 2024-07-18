@@ -15,7 +15,7 @@ const storage = new CloudinaryStorage({
     cb(null, file.originalname); 
   },
   params: {
-    folder: 'API'
+    folder: process.env.FOLDER
   }
 });
 
